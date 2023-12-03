@@ -7,4 +7,5 @@ import { Component } from '@angular/core';
 })
 export class LandingpageComponent {
 
+  landingHeroImage = './assets/img/reels-film.jpeg';
 }

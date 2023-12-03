@@ -1,0 +1,66 @@
+.app-hero {
+    height: 200px;
+    &__spinner {
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    &__container {
+        &.hero-text {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: white; /* Adjust text color as needed */
+            text-align: center;
+        }
+          
+        &.hero-text h1 {
+            font-size: 3rem;
+            margin-bottom: 20px;
+        }  
+        &.hero-text p {
+            font-size: 1.5rem;
+            margin-bottom: 30px;
+        }
+    }
+    &__content {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;  
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        padding: 1.5rem;
+        background-color: rgba(255, 255, 255, 0.5);
+        border-radius: 10px;
+    }
+    &__contentTitle {
+        font-size: 1.9em;
+        font-weight: bold;
+    }
+    &__contentImage {
+        max-height: 200px;
+    }
+    &__contentDescription {
+        font-size: 1.2em;
+    }
+    @media (max-width: 1024px) {
+        &__content {
+            width: 90vw;
+        }
+    }
+    @media (max-width: 768px) {
+        height: 250px;
+        &__content {
+            padding: 1rem;
+        }
+        &__contentImage {
+            height: 250px;
+            max-height: 100%;
+        }
+    }
+}
