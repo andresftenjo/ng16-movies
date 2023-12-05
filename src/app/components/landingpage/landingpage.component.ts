@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, inject } from '@angular/core';
+import { MoviesService } from 'src/app/services/movies.service';
 
 @Component({
   selector: 'app-landingpage',
@@ -8,4 +9,7 @@ import { Component } from '@angular/core';
 export class LandingpageComponent {
 
   landingHeroImage = './assets/img/reels-film.jpeg';
+  movieService = inject(MoviesService);
+
+  ngOnInit() {}
 }
