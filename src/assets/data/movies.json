@@ -7,8 +7,9 @@
       "duration": "2h 30min",
       "genre": "Action, Sci-Fi",
       "releasedDate": "3 September 2020",
-      "trailerLink": "https://www.youtube.com/watch?v=LdOM0x0XDMo",
-      "image": "Tenet.png"
+      "trailerLink": "LdOM0x0XDMo",
+      "image": "Tenet.png",
+      "poster": "https://images5.alphacoders.com/118/1184850.jpg"
     },
     {
       "id": 2,
@@ -18,8 +19,9 @@
       "duration": "1h 57min",
       "genre": "Action, Animation, Adventure",
       "releasedDate": "14 December 2018",
-      "trailerLink": "https://www.youtube.com/watch?v=tg52up16eq0",
-      "image": "Spider Man.png"
+      "trailerLink": "tg52up16eq0",
+      "image": "Spider Man.png",
+      "poster": "https://www.foundry.com/sites/default/files/inline-images/Image_001%20%281%29.jpg"
     },
     {
       "id": 3,
@@ -29,8 +31,9 @@
       "duration": "2h 10min",
       "genre": "Comedy, Crime, Drama",
       "releasedDate": "27 November 2019",
-      "trailerLink": "https://www.youtube.com/watch?v=qGqiHJTsRkQ",
-      "image": "Knives Out.png"
+      "trailerLink": "qGqiHJTsRkQ",
+      "image": "Knives Out.png",
+      "poster": "https://theimmigrationcoalition.com/wp-content/uploads/2019/12/Knives-out.jpeg"
     },
     {
       "id": 4,
@@ -40,8 +43,9 @@
       "duration": "2h 1min",
       "genre": "Action, Adventure, Comedy",
       "releasedDate": "1 August 2014",
-      "trailerLink": "https://www.youtube.com/watch?v=d96cjJhvlMA",
-      "image": "Guardians of The Galaxy.png"
+      "trailerLink": "d96cjJhvlMA",
+      "image": "Guardians of The Galaxy.png",
+      "poster": "https://slidechef.net/wp-content/uploads/2023/06/Animated-Guardians-of-the-Galaxy-template.jpg"
     },
     {
       "id": 5,
@@ -51,7 +55,8 @@
       "duration": "2h 21min",
       "genre": "Action, Adventure, Sci-Fi",
       "releasedDate": "1 May 2015",
-      "trailerLink": "https://www.youtube.com/watch?v=tmeOjFno6Do",
-      "image": "Avengers.png"
+      "trailerLink": "tmeOjFno6Do",
+      "image": "Avengers.png",
+      "poster": "https://oyster.ignimgs.com/wordpress/stg.ign.com/2015/04/avengers-1600d.jpg"
     }
 ]

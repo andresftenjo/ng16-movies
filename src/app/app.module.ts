@@ -10,6 +10,7 @@ import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { MoviesgridComponent } from './components/moviesgrid/moviesgrid.component';
 import { StarRatingComponent } from './components/starrating/starrating.component';
 import { MoviesortComponent } from './components/moviesort/moviesort.component';
+import { MovieDetailsComponent } from './components/movie-details/movie-details.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { MoviesortComponent } from './components/moviesort/moviesort.component';
     LandingpageComponent,
     MoviesgridComponent,
     StarRatingComponent,
-    MoviesortComponent
+    MoviesortComponent,
+    MovieDetailsComponent
   ],
   imports: [
     BrowserModule,

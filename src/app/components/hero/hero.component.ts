@@ -14,4 +14,7 @@ export class HeroComponent {
 
   @Input()
   description: string = '';
+
+  @Input()
+  maxHeight: string = '';
 }

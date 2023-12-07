@@ -8,4 +8,5 @@ export interface Movie {
     releasedDate: string;
     trailerLink: string;
     image?: string;
+    poster?: string;
 }
