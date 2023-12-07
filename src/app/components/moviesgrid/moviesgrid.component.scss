@@ -1,0 +1,25 @@
+.app-moviesgrid {
+    &__movie {
+        height: 690px;
+    }
+    &__movieImage {
+        cursor: pointer;
+        max-height: 540px;
+        &:hover {
+            background-color: #0056b3;
+            box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+            transform: scale(1.02);
+        }
+    }
+    &__movieTitle {
+        font-size: 1.4em;
+    }
+    &__movieDescription {
+        font-size: 1em;
+    }
+    @media (max-width: 1400px) {
+        &__movieImage {
+            max-height: 500px;
+        }
+    }
+}

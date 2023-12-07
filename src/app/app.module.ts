@@ -7,13 +7,17 @@ import { NavigationComponent } from './components/navigation/navigation.componen
 import { HeroComponent } from './components/hero/hero.component';
 import { LandingpageComponent } from './components/landingpage/landingpage.component';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
+import { MoviesgridComponent } from './components/moviesgrid/moviesgrid.component';
+import { StarRatingComponent } from './components/starrating/starrating.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavigationComponent,
     HeroComponent,
-    LandingpageComponent
+    LandingpageComponent,
+    MoviesgridComponent,
+    StarRatingComponent
   ],
   imports: [
     BrowserModule,

@@ -5,7 +5,6 @@
         description="Explore great movies galleries."
     ></app-hero>
     <div *ngIf="movieService.movies()?.length">
-        <ng-container *ngFor="let movie of movieService.movies()">{{movie.title}}
-        </ng-container>
+        <app-moviesgrid [movies]="movieService.movies()"></app-moviesgrid>
     </div>
 </div>

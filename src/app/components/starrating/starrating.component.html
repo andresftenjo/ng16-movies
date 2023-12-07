@@ -1,0 +1,6 @@
+<div class="star-rating" [title]="'Rating: ' +ratings">
+    <i class="bi"
+        *ngFor="let star of starsArray"
+        [ngClass]="{'bi-star-fill': star >= 1, 'bi-star-half': star > 0 && star < 1, 'bi-star': star <= 0}">
+    </i>
+</div>
