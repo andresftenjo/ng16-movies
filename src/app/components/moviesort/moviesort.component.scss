@@ -1,0 +1,8 @@
+.app-moviesort {
+    height: 55px;
+    .dropdown-item {
+        &.active, &:active {
+            background-color: #b99c00;
+        }
+    }
+}

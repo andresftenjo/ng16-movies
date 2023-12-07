@@ -9,6 +9,7 @@ import { LandingpageComponent } from './components/landingpage/landingpage.compo
 import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { MoviesgridComponent } from './components/moviesgrid/moviesgrid.component';
 import { StarRatingComponent } from './components/starrating/starrating.component';
+import { MoviesortComponent } from './components/moviesort/moviesort.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { StarRatingComponent } from './components/starrating/starrating.componen
     HeroComponent,
     LandingpageComponent,
     MoviesgridComponent,
-    StarRatingComponent
+    StarRatingComponent,
+    MoviesortComponent
   ],
   imports: [
     BrowserModule,

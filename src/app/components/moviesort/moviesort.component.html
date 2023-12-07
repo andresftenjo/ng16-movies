@@ -1,0 +1,7 @@
+<div class="bd-example app-moviesort d-flex">
+    <div class="dropdown-menu d-flex p-1">
+      <label class="dropdown-header">Sort by:</label>
+      <a class="dropdown-item rounded" href="javascript:void(0)" (click)="emitSort($event,'title')">Title</a>
+      <a class="dropdown-item rounded" href="javascript:void(0)" (click)="emitSort($event, 'releasedDate')">Release date</a>
+    </div>
+</div>

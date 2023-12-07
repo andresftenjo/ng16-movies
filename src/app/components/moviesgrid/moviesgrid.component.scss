@@ -13,6 +13,10 @@
     }
     &__movieTitle {
         font-size: 1.4em;
+        a {
+            color: #b99c00;
+            text-decoration: none;
+        }
     }
     &__movieDescription {
         font-size: 1em;

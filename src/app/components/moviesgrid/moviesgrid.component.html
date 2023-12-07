@@ -1,6 +1,11 @@
 <div class="container">
     <section class="app-moviesgrid mt-3">
         <div class="row">
+            <div class="col">
+                <app-moviesort (sortEmitter)="onSort($event)"></app-moviesort>
+            </div>
+        </div>
+        <div class="row">
             <div class="col-lg-4 col-md-6 col-12" *ngFor="let movie of movies">
                 <div class="card app-moviesgrid__movie p-3 mb-3">
                     <img [src]="'./assets/img/movies/' + movie.image"
@@ -10,11 +15,19 @@
                         aria-label="Click to see more details about this movie"
                         (click)="selectMovie()"
                         loading="lazy">
-                    <!--<i class="bi bi-bag-heart"></i>-->
-                    <h2 class="app-moviesgrid__movieTitle mt-2">{{ movie.title }}</h2>
+                    <h2 class="app-moviesgrid__movieTitle mt-2">
+                        <a href="javascript:void(0)" (click)="selectMovie()">{{ movie.title }}</a>                        
+                    </h2>
                     <p class="app-moviesgrid__movieDescription m-0">Genre: {{ movie.genre }}</p>
                     <p class="app-moviesgrid__movieDescription m-0">Release: {{ movie.releasedDate }}</p>
-                    <app-starrating [ratings]="movie.rating"></app-starrating>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <app-starrating [ratings]="movie.rating"></app-starrating>
+                        <button aria-label="Click here to add this movie to the Wishlist" 
+                            title="Click here to add this movie to the Wishlist"
+                            class="btn btn-link pt-0 pb-0">
+                            <i class="bi bi-bag-heart lead"></i>
+                        </button>
+                    </div>
                 </div>
             </div>
         </div>
